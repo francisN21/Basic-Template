@@ -1,0 +1,60 @@
+nav {
+    height: 10vh;
+    background-color: blue;
+    position: relative;
+}
+
+.nav-links {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    right: 0.5%;
+}
+
+/* sudoselector */
+.nav-links li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+color: whitesmoke;
+text-decoration: none;
+font-size: 25px;
+
+}
+
+main {
+    height: 80vh;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+.left {
+background-color: yellow;
+float: left;
+height: 80vh;
+}
+
+.right {
+background-color: cyan;
+float: right;
+height: 80vh;
+}
+
+
+footer {
+    height: 10vh;
+    background-color: blue;
+
+}
