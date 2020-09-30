@@ -38,6 +38,10 @@ main {
     display: table;
   }
 
+  .left, .right {
+      width: 50%;
+      height: 80VH;
+  }
 
 
 .left {
@@ -50,6 +54,18 @@ height: 80vh;
 background-color: cyan;
 float: right;
 height: 80vh;
+position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
 }
 
 
